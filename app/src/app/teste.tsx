@@ -36,7 +36,7 @@ export default function Teste() {
       />
       <Button title={carregando ? "Enviando..." : "Enviar"} onPress={enviar} disabled={carregando} />
       <View>
-        <Text style={{ color: "#ffffff" }}>{resposta}</Text>
+        <Text className="text-xl font-bold text-blue-500">{resposta}</Text>
       </View>
     </ScrollView>
   );
